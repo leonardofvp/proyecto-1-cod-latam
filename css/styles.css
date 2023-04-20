@@ -60,7 +60,6 @@ nav{
 
 
 #inicio{
-    scroll-margin-top:100px ;
     max-width: 900px;
     margin-left: auto;
     margin-right: auto;
@@ -70,6 +69,7 @@ nav{
     justify-content: center;
     align-items: center;
     padding: 0 20px;
+    scroll-margin-top:100px ;
 }
 
 #contacto{
@@ -82,7 +82,7 @@ nav{
     justify-content: center;
     align-items: center;
     padding: 50px 20px;
-    scroll-margin-top:30px 
+    scroll-margin-top:60px 
 }
 
 article{
