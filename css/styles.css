@@ -24,7 +24,7 @@ body{
     background-color:  #fbfbfb;
     padding-top: 110px;
     font-size: 18px;
-    display: flex;
+    
 }
 
 /* Este max-width es para que el contenido no se "estire" demasiado hacia los costados y
@@ -57,6 +57,8 @@ nav{
 
 #inicio{
     max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -67,6 +69,8 @@ nav{
 
 #contacto{
     max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -101,6 +105,7 @@ article{
     display: flex;
     flex-direction: column;
     text-align: left;
+    justify-content: center;
 
 }
 
@@ -108,17 +113,30 @@ form {
     padding: 30px;
     border-radius: 20px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-    text-align: center;
     margin-top: 20px;
+}
+
+.footer{
+    min-height: 90px;
+    width: 100%;
+    background-color: #af599e;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fbfbfb;
+    padding: 20px;
 }
 
 .btn-formulario{
     background-color: #af599e;
     color: #fbfbfb;
+    width: 50%;
     font-size: 20px;
     padding: 10px;
     border-radius: 20px;
     margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .btn-formulario:hover{
@@ -155,8 +173,6 @@ textarea {
     transform: scale(1.2);
     box-shadow: 0 0 20px #af599e;
 }
-
-
 
 
 .btn-descarga{
