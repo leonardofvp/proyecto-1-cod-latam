@@ -55,7 +55,12 @@ nav{
 
 }
 
+
+
+
+
 #inicio{
+    scroll-margin-top:100px ;
     max-width: 900px;
     margin-left: auto;
     margin-right: auto;
@@ -77,6 +82,7 @@ nav{
     justify-content: center;
     align-items: center;
     padding: 50px 20px;
+    scroll-margin-top:30px 
 }
 
 article{
@@ -140,7 +146,8 @@ form {
 }
 
 .btn-formulario:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
+    box-shadow: 0 0 20px #af599e;
 }
 
 
