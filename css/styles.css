@@ -23,6 +23,8 @@ body{
     font-family: 'Lato', sans-serif;
     background-color:  #fbfbfb;
     padding-top: 110px;
+    font-size: 18px;
+    display: flex;
 }
 
 /* Este max-width es para que el contenido no se "estire" demasiado hacia los costados y
@@ -31,6 +33,7 @@ body{
 main {
     max-width: 1200px;
     margin: auto;
+    
 }
 
 header{
@@ -52,10 +55,135 @@ nav{
 
 }
 
+#inicio{
+    max-width: 700px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+}
+
+#contacto{
+    max-width: 700px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 20px;
+}
+
+article{
+    background-color: rgba(175, 89, 158, 0.3);
+    padding: 10px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+
+}
+
+.contenedor-iconos{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.contenedor-mensaje{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.contenedor-formulario{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+
+}
+
+form {
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btn-formulario{
+    background-color: #af599e;
+    color: #fbfbfb;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+.btn-formulario:hover{
+    transform: scale(1.2);
+}
+
+
+label {
+    padding: 10px;
+    width: 50%;
+}
+
+input {
+    padding: 10px;
+    border-radius: 15px;
+    border-color: #af599e;
+    border-width: 2px;
+
+}
+
+textarea {
+    padding: 10px;
+    border-radius: 15px;
+    border-color: #af599e;
+    border-width: 2px;
+}
+
+.img-contacto{
+    max-width: 100%;
+    width: 60px;
+}
+
+.img-contacto:hover{
+    transform: scale(1.2);
+    box-shadow: 0 0 20px #af599e;
+}
+
+
+
+
+.btn-descarga{
+    background-color:#af599e ;
+    color: #fbfbfb;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    
+}
+
+.btn-descarga:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 20px #af599e;
+}
+
 .eidos-logo{
     width: 150px;
     padding: 10px;
 }
+
+.foto-leo{
+    max-width: 100%;
+    width: 400px;
+    border-radius: 50%;
+}
+
 
 /* Para quitar los puntos a los items de listas */
 ul {
@@ -81,7 +209,30 @@ a {
     text-decoration: none;
     color: inherit;
     font-weight: bold;
+    
 }
+
+p{
+    margin-top: 20px ;
+    margin-bottom: 20px;
+    line-height: 1.2;
+    text-align: center;
+    margin-top: 20px;
+}
+
+h1{
+    font-size: 36px;
+    text-align: center;
+    margin-top: 30px;
+    
+}
+
+/* tamaño de titulo secundario*/
+h2{
+    font-size: 28px;
+    text-align: center;
+}
+
 
 
 
