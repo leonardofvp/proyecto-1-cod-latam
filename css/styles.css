@@ -76,7 +76,7 @@ nav{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 30px 20px;
+    padding: 50px 20px;
 }
 
 article{
@@ -121,10 +121,10 @@ form {
     width: 100%;
     background-color: #af599e;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     color: #fbfbfb;
-    padding: 20px;
+    padding: 30px;
 }
 
 .btn-formulario{
@@ -200,6 +200,11 @@ textarea {
     border-radius: 50%;
 }
 
+.logo-footer{
+    border-radius: 10px;
+    width: 60px;
+}
+
 
 /* Para quitar los puntos a los items de listas */
 ul {
@@ -247,6 +252,10 @@ h1{
 h2{
     font-size: 28px;
     text-align: center;
+}
+
+.text-footer{
+    font-size: 16px;
 }
 
 
