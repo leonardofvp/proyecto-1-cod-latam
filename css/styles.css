@@ -91,6 +91,10 @@ nav{
     scroll-margin-top:55px 
 }
 
+#mensaje{
+    scroll-margin-top:110px 
+}
+
 article{
     background-color: rgba(175, 89, 158, 0.3);
     padding: 10px;
