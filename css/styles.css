@@ -27,14 +27,7 @@ body{
     
 }
 
-/* Este max-width es para que el contenido no se "estire" demasiado hacia los costados y
-*  el margin: auto; para tenerlo centrado fácilmente ;)
-*/
-main {
-    max-width: 1200px;
-    margin: auto;
-    
-}
+
 
 header{
     position: fixed;
@@ -50,6 +43,8 @@ header{
     z-index: 10;
 }
 
+
+
 nav{
     display: flex;
     justify-content: space-between;
@@ -57,14 +52,28 @@ nav{
 
 }
 
-.contenedor-header{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
+/* Este max-width es para que el contenido no se "estire" demasiado hacia los costados y
+*  el margin: auto; para tenerlo centrado fácilmente ;)
+*/
+main {
+    max-width: 1200px;
+    margin: auto;
+    
 }
 
 
+.footer{
+    min-height: 90px;
+    width: 100%;
+    background-color: #af599e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fbfbfb;
+    padding: 15px;
+}
 
+/* sectio*/
 
 #inicio{
     max-width: 900px;
@@ -96,6 +105,8 @@ nav{
     scroll-margin-top:110px 
 }
 
+/* contenido de section*/
+
 article{
     background-color: rgba(175, 89, 158, 0.3);
     padding: 10px;
@@ -103,6 +114,13 @@ article{
     margin-bottom: 30px;
     box-shadow: 0px 2px 7px 1px rgba(0,0,0,0.3);
 
+}
+
+
+.contenedor-header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 
 .contenedor-iconos{
@@ -135,16 +153,8 @@ form {
     margin-top: 20px;
 }
 
-.footer{
-    min-height: 90px;
-    width: 100%;
-    background-color: #af599e;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: #fbfbfb;
-    padding: 15px;
-}
+
+/* botones*/
 
 .btn-formulario{
     background-color: #af599e;
@@ -163,6 +173,22 @@ form {
     box-shadow: 0 0 20px #af599e;
 }
 
+.btn-descarga{
+    background-color:#af599e ;
+    color: #fbfbfb;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    
+}
+
+.btn-descarga:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 20px #af599e;
+}
+
+
+/* formulario*/
 
 label {
     padding: 10px;
@@ -184,6 +210,9 @@ textarea {
     border-width: 2px;
 }
 
+
+/* imagenes*/
+
 .img-contacto{
     max-width: 100%;
     width: 60px;
@@ -196,20 +225,6 @@ textarea {
     
 }
 
-
-.btn-descarga{
-    background-color:#af599e ;
-    color: #fbfbfb;
-    font-size: 20px;
-    padding: 10px;
-    border-radius: 20px;
-    
-}
-
-.btn-descarga:hover{
-    transform: scale(1.1);
-    box-shadow: 0 0 20px #af599e;
-}
 
 .eidos-logo{
     width: 120px;
