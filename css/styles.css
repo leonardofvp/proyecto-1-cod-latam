@@ -44,7 +44,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 15px;
     box-shadow: 0px 2px 7px 1px rgba(0,0,0,0.3);
     background-color: #fbfbfb;
 }
@@ -52,9 +52,15 @@ header{
 nav{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 
 }
 
+.contenedor-header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
 
 
 
@@ -82,7 +88,7 @@ nav{
     justify-content: center;
     align-items: center;
     padding: 50px 20px;
-    scroll-margin-top:60px 
+    scroll-margin-top:55px 
 }
 
 article{
@@ -131,7 +137,7 @@ form {
     justify-content: space-between;
     align-items: center;
     color: #fbfbfb;
-    padding: 30px;
+    padding: 15px;
 }
 
 .btn-formulario{
@@ -198,8 +204,8 @@ textarea {
 }
 
 .eidos-logo{
-    width: 150px;
-    padding: 10px;
+    width: 120px;
+   
 }
 
 .foto-leo{
@@ -219,10 +225,12 @@ ul {
     list-style: none;
     display: flex;
     flex-direction: row;
+    
 }
 
 ul li{
-    padding: 10px;
+ 
+  padding: 10px;
 }
 
 ul li:hover{
